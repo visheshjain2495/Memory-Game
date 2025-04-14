@@ -41,6 +41,7 @@ $(document).keypress(function() {
         $("h1").text("Level " + level);
         nextSequence();
         started = true;
+        $(".start-btn").hide();
     }
 });
 
